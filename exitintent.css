@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+	font-family: 'Inter', sans-serif;
+	background-color:#ddd;
+	padding:40px 0;
+}
+
+.popup_wrapper {
+	width: 700px;
+	margin:60px auto;
+}
+.popup_wrapper section {
+	background-color: #FFF;
+	padding: 30px 15px;
+	border-radius:7px;
+}
+.pop_1 section {
+	border-bottom:solid 5px #f6e049;
+	border-top:solid 5px #f6e049;
+}
+.pop_1 img {
+    display: block;
+    margin: 0 auto;
+}
+.popup_wrapper h3 {
+    text-align: center;
+    font-size: 26px;
+    color: #253243;
+    margin: 30px 0 0;
+}
+.popup_wrapper p {
+    font-size: 16px;
+    text-align: center;
+    color: #858a90;
+}
+.btn_wrapper {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0 50px;
+}
+.pop_1 .btn {
+    display: block;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 0 5px;
+    border-radius: 50px;
+    width: 135px;
+	font-weight: 600;
+	cursor:pointer;
+}
+.pop_1 .cancel {
+    border: solid 1px #000;
+    background-color: transparent;
+}
+.pop_1 .exit {
+    border: solid 1px #f6e049;
+    background-color: #f6e049;
+}
+
+.pop_2 {
+    position: relative;
+}
+.pop_2 section {
+    background-color: transparent;
+    border: solid 2px #fff;
+    border-radius: 30px;
+    padding: 60px 15px;
+    text-align: center;
+	position:relative;
+}
+.pop_2:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #fff;
+    border-radius: 30px;
+    transform: rotate(-4deg);
+}
+.pop_2 h3 {
+    max-width: 300px;
+    margin: 20px auto 0;
+}
+.pop_2 .btn {
+    display: block;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 0 5px;
+    border-radius: 15px;
+    width: 135px;
+	font-weight: 600;
+	cursor:pointer;
+}
+.pop_2 .cancel {
+    border: none;
+    background-color: #eee;
+}
+.pop_2 .exit {
+    border: none;
+    background-color: #000;
+	color:#fff;
+}
+
+
+
+.pop_3 section {
+    border-radius: 20px;
+    text-align: center;
+}
+.pop_3 section article {
+    padding: 25px 30px;
+    max-width: 350px;
+    margin: -24px auto 0;
+	border-radius: 20px;
+	
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#402fb4+0,9763ff+100 */
+background: #402fb4; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #402fb4 0%, #9763ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #402fb4 0%,#9763ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #402fb4 0%,#9763ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#402fb4', endColorstr='#9763ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.pop_3 section article h3 {
+	color:#fff;
+}
+.pop_3 section article p {
+	color:#ddd;
+}
+.pop_3 .btn {
+    display: block;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 0 5px;
+    border-radius: 15px;
+    width: 135px;
+	font-weight: 600;
+	cursor:pointer;
+}
+.pop_3 .cancel {
+    border: none;
+    background-color: #eee;
+}
+.pop_3 .exit {
+    border: none;
+    background-color: #d22008;
+	color:#fff;
+}
+
+
+.pop_4 section {
+    display: flex;
+    flex-wrap: wrap;
+	    padding: 30px;
+}
+.pop_4 section img {
+    width: 130px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #ececec;
+}
+.pop_4 section article {
+    width: calc(100% - 160px);
+    padding: 0 0 0 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.pop_4 section article h3 {
+    text-align: left;
+    max-width: 330px;
+    margin: 0;
+}
+.pop_4 section article p {
+    text-align: left;
+    width: 100%;
+	margin: 0;
+}
+.pop_4 .btn_wrapper {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0 0 0 180px;
+    margin: 10px 0 20px;
+}
+.pop_4 .btn {
+    display: block;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 0 5px;
+    border-radius: 5px;
+    width: 135px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pop_4 .exit {
+    border: solid 1px #f6e049;
+    background-color: #f6e049;
+}
+.pop_4 .cancel {
+    border: solid 1px #000;
+    background-color: transparent;
+}
