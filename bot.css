@@ -1,0 +1,52 @@
+
+.bot-container{
+  position : absolute;
+  bottom: 5%;
+  right: 6%;
+}
+.bot-button{
+    width: 67px;
+    height: 51px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-image: url(video_cafe.png);
+	transition: all .5s ease;
+}
+.bot-button:hover {
+    transform: rotateY(360deg);
+}
+.bot-box{
+  position: absolute;
+  bottom: 100%;
+  right: 100%;
+  transform-origin: 100% 100%;
+
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  clip-path: circle(10px at 83% 8%);
+      -webkit-clip-path : circle(0px at 94% 94%);
+/*       transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1); */
+  transition: all 0.3s ease ;
+  z-index : -1;
+  opacity : 0.3;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-box.open{
+   -webkit-clip-path : circle(200% at 94% 94%); 
+  opacity : 1;
+}
+.swing {
+animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center 10px;
+    float:left;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(15deg); }
+    100% { transform: rotate(-15deg); }
+}
